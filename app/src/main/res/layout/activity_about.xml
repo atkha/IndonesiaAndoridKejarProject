@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.course.OrderActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mImageProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:center_horizontal = "true"
+        android:src="@drawable/mountain"
+        />
+    <TextView
+        android:id="@+id/hbd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ini halaman about"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_40"/>
+</LinearLayout>
